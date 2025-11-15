@@ -1,9 +1,15 @@
-import Home from "./pages/home"
+import Hero from "./components/Hero"
+import Greeting from "./components/Greeting"
+import Member from "./components/Member"
+import Dwi from "./components/Dwi"
 
 function App() {
   return (
     <>
-    <Home/>
+    <Hero />
+    <Greeting />
+    <Member />
+    <Dwi />
     </>
   )
 }

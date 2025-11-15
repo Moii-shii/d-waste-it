@@ -1,33 +1,33 @@
 export default function Member() {
-
+    
     const members = [
         {
             id: 1,
-            src: './src/assets/mem1.png',
+            src: '../assets/mem1.png',
             alt: 'Member 1'
         },
         {
             id: 2,
-            src: './src/assets/mem2.png',
+            src: '../assets/mem2.png',
             alt: 'Member 2'
         },
         {
             id: 3,
-            src: './src/assets/mem3.png',
+            src: '../assets/mem3.png',
             alt: 'Member 3'
         },
         {
             id: 4,
-            src: './src/assets/mem4.png',
+            src: '../assets/mem4.png',
             alt: 'Member 4'
         },
         {
             id: 5,
-            src: './src/assets/mem5.png',
+            src: '../assets/mem5.png',
             alt: 'Member 5'
-        },
+        }
     ]
-
+    
     const card = members.map(member => (
         <div className="shadow-md" key={member.id}>
             <img src={member.src} alt={member.alt} className="w-full h-full" />

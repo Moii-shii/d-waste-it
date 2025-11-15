@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base: process.env.VITE_BASE_PATH || "/Don-t-Waste-It"
+  base: process.env.VITE_BASE_PATH || "/d-waste-it"
 })
